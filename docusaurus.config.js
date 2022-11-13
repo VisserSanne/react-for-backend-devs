@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'React for C# devs',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://vissersanne.github.io/',
   baseUrl: '/react-for-csharp-devs/',
   trailingSlash: true,
   onBrokenLinks: 'throw',
@@ -86,6 +86,7 @@ const config = {
       prism: {
         darkTheme: darkCodeTheme,
         theme: lightCodeTheme,
+        additionalLanguages: ['php', 'csharp']
       },
     }),
 };
