@@ -43,7 +43,7 @@ console.log(operandEmptyString === operandNumberZero); // false
 console.log(operandEmptyString === secondOperandEmptyString); // true
 ```
 
-This doesn't make things more easy if you wanna (deep) compare an object though. In case of an object it doesn't compare each property.
+This doesn't make things more easy if you wanna (deep) compare an object though. In case of an object it doesn't compare each property but it compares the reference.
 
 ```js title="Deep compare an object"
 const javascriptObject = {
